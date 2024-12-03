@@ -15,6 +15,7 @@ public class Calculator {
         System.out.println("Division por cero: " + calculator.divide(10, 0));
         System.out.println("Modulus: " + calculator.modulus(10, 3));
         System.out.println("Modulus by zero: " + calculator.modulus(10, 0));
+        System.out.println("Sqrt: " + calculator.sqrt(10));
 
     }
     public int multiply(int a, int b) {
@@ -34,6 +35,7 @@ public class Calculator {
         }
         return a % b;
     }
+    public double sqrt(double a){return Math.sqrt(a);}
 
 
 }
